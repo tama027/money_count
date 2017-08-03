@@ -5,8 +5,8 @@ import java.util.Date;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.myproject.parking.lib.data.ListMemberVO;
-import com.myproject.parking.lib.entity.UserData;
+import com.myproject.core.lib.data.ListMemberVO;
+import com.myproject.core.lib.entity.UserData;
 
 public interface UserDataMapper {
 	public void createUserData(UserData userData);

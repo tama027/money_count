@@ -1,22 +1,15 @@
 package com.myproject.parking.lib.service;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
-import java.util.Date;
-
-import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.myproject.parking.lib.data.LoginData;
-import com.myproject.parking.lib.entity.UserData;
+import com.myproject.core.lib.data.LoginData;
+import com.myproject.core.lib.entity.UserData;
 import com.myproject.parking.lib.mapper.UserDataMapper;
 import com.myproject.parking.lib.utils.CipherUtil;
 import com.myproject.parking.lib.utils.CommonUtil;
-import com.myproject.parking.lib.utils.Constants;
 
 @Service
 public class LoginService {

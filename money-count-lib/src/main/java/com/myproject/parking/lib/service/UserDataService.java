@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.myproject.parking.lib.entity.UserData;
+import com.myproject.core.lib.entity.UserData;
 import com.myproject.parking.lib.mapper.UserDataMapper;
 import com.myproject.parking.lib.utils.Constants;
 import com.myproject.parking.lib.utils.EmailSender;

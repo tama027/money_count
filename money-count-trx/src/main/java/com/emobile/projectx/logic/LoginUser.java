@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.myproject.parking.lib.data.LoginData;
+import com.myproject.core.lib.data.LoginData;
 import com.myproject.parking.lib.service.LoginService;
 import com.myproject.parking.lib.service.ParkingEngineException;
 import com.myproject.parking.lib.utils.MessageUtils;

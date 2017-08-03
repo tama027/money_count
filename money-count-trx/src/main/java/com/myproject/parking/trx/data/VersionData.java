@@ -1,10 +1,4 @@
 package com.myproject.parking.trx.data;
-/**
- * Historical Changes:
- * 1.0.0 - 2012-12-06, 16:00
- * - first release with version number
- *
- */
 
 import java.io.IOException;
 import java.net.URL;

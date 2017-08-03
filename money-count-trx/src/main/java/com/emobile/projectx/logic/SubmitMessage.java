@@ -8,10 +8,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.myproject.parking.lib.data.MessageIssueVO;
-import com.myproject.parking.lib.data.NotifVO;
-import com.myproject.parking.lib.data.SubmitDataVO;
-import com.myproject.parking.lib.entity.UserData;
+import com.myproject.core.lib.data.MessageIssueVO;
+import com.myproject.core.lib.data.NotifVO;
+import com.myproject.core.lib.data.SubmitDataVO;
+import com.myproject.core.lib.entity.UserData;
 import com.myproject.parking.lib.service.GetMessageService;
 import com.myproject.parking.lib.service.ParkingEngineException;
 import com.myproject.parking.lib.service.SubmitDataService;

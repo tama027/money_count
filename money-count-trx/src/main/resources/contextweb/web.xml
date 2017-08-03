@@ -3,8 +3,8 @@
 	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
-	<display-name>Parking Engine</display-name>
-	<description>Core Engine Parking</description>
+	<display-name>Universal Engine</display-name>
+	<description>Core Engine </description>
 
 	<context-param>
 		<param-name>webAppRootKey</param-name>
@@ -28,13 +28,13 @@
 	</listener>
 	
 	<servlet>
-		<servlet-name>ParkingServiceServlet</servlet-name>
-		<servlet-class>com.myproject.parking.trx.servlet.ParkingServiceServlet</servlet-class>
+		<servlet-name>CoreServiceServlet</servlet-name>
+		<servlet-class>com.myproject.trx.servlet.CoreServiceServlet</servlet-class>
 		<load-on-startup>5</load-on-startup>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>ParkingServiceServlet</servlet-name>
+		<servlet-name>CoreServiceServlet</servlet-name>
 		<url-pattern>/*</url-pattern>
 	</servlet-mapping>
 	

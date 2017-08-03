@@ -18,15 +18,15 @@ import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.myproject.parking.lib.data.GetMessageVO;
-import com.myproject.parking.lib.data.ListBankAndAppMessageVO;
-import com.myproject.parking.lib.data.ListBankAndAppVO;
-import com.myproject.parking.lib.data.MessageVO;
-import com.myproject.parking.lib.data.SubmitDataVO;
-import com.myproject.parking.lib.data.TaskInfoMessageVO;
-import com.myproject.parking.lib.data.TaskInfoVO;
-import com.myproject.parking.lib.data.TaskMemberMessageVO;
-import com.myproject.parking.lib.data.TaskMemberVO;
+import com.myproject.core.lib.data.GetMessageVO;
+import com.myproject.core.lib.data.ListBankAndAppMessageVO;
+import com.myproject.core.lib.data.ListBankAndAppVO;
+import com.myproject.core.lib.data.MessageVO;
+import com.myproject.core.lib.data.SubmitDataVO;
+import com.myproject.core.lib.data.TaskInfoMessageVO;
+import com.myproject.core.lib.data.TaskInfoVO;
+import com.myproject.core.lib.data.TaskMemberMessageVO;
+import com.myproject.core.lib.data.TaskMemberVO;
 import com.myproject.parking.lib.service.ParkingEngineException;
 
 public class MessageUtils {

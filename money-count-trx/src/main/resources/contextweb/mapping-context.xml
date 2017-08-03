@@ -17,12 +17,13 @@
 	<bean id="SubmitData" class="com.emobile.projectx.logic.SubmitData" />
 
 	<bean id="GetMessage" class="com.emobile.projectx.logic.GetMessage" />
+	
 	<bean id="SubmitMessage" class="com.emobile.projectx.logic.SubmitMessage" />
 
 	<bean id="ListBankAndApp" class="com.emobile.projectx.logic.GetListBankAndApp" />
 
 	<bean id="TaskMember" class="com.emobile.projectx.logic.TaskMember" />
-	
+
 	<bean id="TaskInfo" class="com.emobile.projectx.logic.TaskInfo" />
 
 </beans>

@@ -9,5 +9,5 @@
     <warLocation></warLocation>
     <extraInfo></extraInfo>
     <mavenClasspath>false</mavenClasspath>
-    <webPath>bug-tracker-trx</webPath>
+    <webPath>money-count-trx</webPath>
 </tomcatProjectProperties>

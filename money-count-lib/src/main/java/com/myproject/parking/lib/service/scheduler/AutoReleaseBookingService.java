@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.myproject.parking.lib.data.EmailNotifVO;
+import com.myproject.core.lib.data.EmailNotifVO;
 import com.myproject.parking.lib.entity.Booking;
 import com.myproject.parking.lib.mapper.BookingMapper;
 import com.myproject.parking.lib.service.AppsTimeService;

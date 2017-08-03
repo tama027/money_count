@@ -11,7 +11,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Service;
 
-import com.myproject.parking.lib.entity.UserData;
+import com.myproject.core.lib.entity.UserData;
 import com.myproject.parking.lib.mapper.UserDataMapper;
 import com.myproject.parking.lib.utils.CipherUtil;
 import com.myproject.parking.lib.utils.CommonUtil;

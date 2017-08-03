@@ -15,12 +15,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.myproject.parking.lib.data.AppMasterVO;
-import com.myproject.parking.lib.data.DataNotifVO;
-import com.myproject.parking.lib.data.NotifVO;
-import com.myproject.parking.lib.data.SubmitDataVO;
-import com.myproject.parking.lib.data.UserRefVO;
-import com.myproject.parking.lib.entity.UserData;
+import com.myproject.core.lib.data.AppMasterVO;
+import com.myproject.core.lib.data.DataNotifVO;
+import com.myproject.core.lib.data.NotifVO;
+import com.myproject.core.lib.data.SubmitDataVO;
+import com.myproject.core.lib.data.UserRefVO;
+import com.myproject.core.lib.entity.UserData;
 import com.myproject.parking.lib.mapper.SubmitDataMapper;
 import com.myproject.parking.lib.mapper.UserDataMapper;
 import com.myproject.parking.lib.utils.CommonUtil;

@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.myproject.parking.lib.data.AppMasterVO;
-import com.myproject.parking.lib.data.BankMasterVO;
-import com.myproject.parking.lib.data.MessageIssueVO;
-import com.myproject.parking.lib.data.SubmitDataVO;
-
+import com.myproject.core.lib.data.AppMasterVO;
+import com.myproject.core.lib.data.BankMasterVO;
+import com.myproject.core.lib.data.MessageIssueVO;
+import com.myproject.core.lib.data.SubmitDataVO;
+ 
 public interface GetMessageMapper {
 	
 	public SubmitDataVO findIssueDataAndMessageByIssueNumber(@Param("issueNumber") String issueNumber);

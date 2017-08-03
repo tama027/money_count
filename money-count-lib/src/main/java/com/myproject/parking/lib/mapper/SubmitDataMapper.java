@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.myproject.parking.lib.data.AppMasterVO;
-import com.myproject.parking.lib.data.ListMemberVO;
-import com.myproject.parking.lib.data.SubmitDataVO;
-import com.myproject.parking.lib.data.TaskInfoVO;
-import com.myproject.parking.lib.data.UserRefVO;
+import com.myproject.core.lib.data.AppMasterVO;
+import com.myproject.core.lib.data.ListMemberVO;
+import com.myproject.core.lib.data.SubmitDataVO;
+import com.myproject.core.lib.data.TaskInfoVO;
+import com.myproject.core.lib.data.UserRefVO;
 
 public interface SubmitDataMapper {
 	public void insertToDb(SubmitDataVO submitDataVO);

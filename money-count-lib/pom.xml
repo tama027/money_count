@@ -27,7 +27,7 @@
 			<version>2.0.0</version>
 		</dependency> -->
 		
-		
+		 
 		<!-- Veritrans RestFull API -->	
 		<dependency>
 	        <groupId>id.co.veritrans</groupId>

@@ -3,22 +3,20 @@ package com.myproject.parking.lib.log;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.myproject.parking.lib.entity.TransactionVO;
-
 
 
 public class TrxLogAsyncAgent implements Runnable {
 	private static final Logger LOG = LoggerFactory.getLogger(TrxLogAsyncAgent.class);
 	
 //	private final AppsMonitoringService monitoringService;
-	private final TransactionLogFacade logFacade;
-	private final TransactionVO task;
+	//private final TransactionLogFacade logFacade;
+	/*private final TransactionVO task;
 	
 	public TrxLogAsyncAgent(TransactionLogFacade logFacade, TransactionVO task) {
 //		this.monitoringService = monitoringService;
 		this.logFacade = logFacade;
 		this.task = task;
-	}
+	}*/
 	
 	@Override
 	public void run() { 
@@ -26,7 +24,7 @@ public class TrxLogAsyncAgent implements Runnable {
 		boolean success = false;
 		int maxRetry = 3;
 		while (maxRetry-- > 0) {
-			try {
+		/*	try {
 				if (task.isUpdate()) {
 					// update task
 					logFacade.updateLog(task);
@@ -43,7 +41,7 @@ public class TrxLogAsyncAgent implements Runnable {
 				try {
 					Thread.sleep(200);
 				} catch (InterruptedException ie) {}
-			}
+			}*/
 		}
 		if (!success) {
 //			monitoringService.reportFailedLog(task, errorMsg);
